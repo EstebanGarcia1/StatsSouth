@@ -2,7 +2,7 @@
 const state = {
     playerName: "DANO",
     teamName: "LOTUS KNIGTHS",
-    teamLogo: ".png",
+    teamLogo: "lotus.png",
     stats: {
         kd: "9-4",
         "1vsx": "0",
