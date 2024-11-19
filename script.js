@@ -1,13 +1,13 @@
 // Estado inicial
 const state = {
-    playerName: "CIERVO",
-    teamName: "KWAI KIWIS",
+    playerName: "DANO",
+    teamName: "LOTUS KNIGTHS",
     teamLogo: ".png",
     stats: {
-        kd: "10-7",
+        kd: "9-4",
         "1vsx": "0",
-        "entry-kills": "-1",
-        "pl-de": "1",
+        "entry-kills": "+1",
+        "pl-de": "0",
     },
 };
 
