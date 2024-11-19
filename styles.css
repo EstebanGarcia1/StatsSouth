@@ -1,0 +1,98 @@
+/* Configuración global */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'Galano Grotesque', Arial, sans-serif;
+    color: white;
+}
+
+.stats-container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Nombre del jugador */
+.player-name {
+    position: absolute;
+    top: 330px;
+    left: 160px;
+    font-size: 100px;
+    font-weight: bold;
+    color: orange;
+}
+
+/* Logo del equipo */
+.team-logo img {
+    position: absolute;
+    top: 525px;
+    left: 710px;
+    width: 60px;
+    height: 70px;
+    border: none;
+}
+
+/* Nombre del equipo (vertical) */
+.team-name {
+    position: absolute;
+    top: 680px;
+    left: 760px;
+    font-size: 36px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+
+    /* Propiedades para mantenerlo en una línea vertical */
+    transform: rotate(90deg); /* Rota el texto */
+    transform-origin: left top; /* Ajusta el punto de rotación */
+    white-space: nowrap; /* Evita saltos de línea */
+}
+/* Estadísticas */
+.stats {
+    position: absolute;
+    top: 520px;
+    left: 500px;
+    font-size: 35px;
+    line-height: 2.5;
+    color: orange;
+}
+
+.stats .stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.stats .stat .value {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 153, 0);
+    width: 150px;
+    text-align: center;
+}
+
+.stats .stat .label {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 40;
+    width: 300px;
+    color: white;
+}
