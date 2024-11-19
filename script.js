@@ -28,5 +28,5 @@ function updateStats() {
 }
 
 // Inicializar pantalla
-updateStats();
+updateStats(); 
 
